@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.logo-pagina{
+    width: 10%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.btn-buy{
+    background-color: rgb(244, 91, 74);
+    border: none;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(213, 213, 213);
+}
+
+
+.inicio-section{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dog-inicio{
+    width: 30%;
+}
+
+
+.inicio-section article {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    gap: 1rem;
+}
+
+.inicio-section article h1{
+    font-size: 3rem;
+}
+
+.inicio-section article p{
+    font-size: 2rem;
+
+}
+
+.inicio-section article button{
+    font-size: 2rem;
+
+}
+
+.love-pets{
+    border: none;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    color: white;
+    background-color: rgb(244, 91, 74);
+}
+.love-pets:hover{
+    color: white;
+    background-color: rgb(205, 63, 48);
+}
+
+.learn-more{
+    border: none;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    color: white;
+    background-color: rgb(173, 173, 173);
+}
+
+.learn-more:hover{
+    color: white;
+    background-color: rgb(106, 106, 106);
+}
+
+.pets-collage{
+    height: 300px;
+}
+
+.card-img{
+    width: 30%;
+}
+
+.cat-img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.dog-img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.once-live{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+    padding: 1.2rem;
+}
+
+.once-live article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.once-live article h3{
+    color: rgb(205, 63, 48);
+    font-size: 1.5rem;
+}
+.once-live article h2{
+    font-size: 2.5rem;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-pet{
+    height: 20rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card-pet p{
+    font-size: 1.5rem;
+}
+.card-pet i{
+    font-size: 1.2rem;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+}
+
+.social-net i{
+    font-size: 2rem;
+}
+
+.card-foot h5{
+    font-size: 1.5rem;
+}
+.card-foot p{
+    font-size: 1.1rem;
+}
